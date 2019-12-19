@@ -4,7 +4,7 @@ from threading import Timer
 import time
 
 '''
-每个 10 秒打印当前时间。
+每 10 秒打印当前时间。
 '''
 def timedTask():
     '''
@@ -20,4 +20,4 @@ def task():
 if __name__ == '__main__':
     while True:
         timedTask()
-        time.sleep(1)
+        time.sleep(10)
